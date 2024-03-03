@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ff63b25cdc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="menu-tabs">
+            <button data-id="first-tab" onclick="showInfo('first-tab')" class="menu-tab menu-tab-active">Pozycja
+                1</button>
+            <button data-id="second-tab" onclick="showInfo('second-tab')" class="menu-tab">Pozycja 2</button>
+            <button data-id="third-tab" onclick="showInfo('third-tab')" class="menu-tab">Pozycja 3</button>
+        </div>
+
+        <div class="menu-section" id="first-tab">
+            <h3>Sekcja 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus dolorem commodi
+                similique doloribus doloremque aspernatur quod dolores amet sint!</p>
+
+            <p>Voluptas provident neque, sunt nulla excepturi, et, quibusdam repellendus laborum necessitatibus
+                beataeat. Numquam hic deleniti ducimus consequatur nisi odit!</p>
+
+            <p>Iusto numquam ipsam accusantium officiis aperiam? Dolore aliquid nam atque sapiente illo, est, quae
+                consequatur possimus fugiat pariatur cupiditate nesciunt!</p>
+        </div>
+        <div class="menu-section" id="second-tab" style="display: none">
+            <h3>Sekcja 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus dolorem commodi
+                similique doloribus doloremque aspernatur quod dolores amet sint!</p>
+
+            <p>Voluptas provident neque, sunt nulla excepturi, et, quibusdam repellendus laborum necessitatibus
+                beataeat. Numquam hic deleniti ducimus consequatur nisi odit!</p>
+
+        </div>
+
+        <div class="menu-section" id="third-tab" style="display: none">
+            <h3>Sekcja 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus dolorem commodi
+                similique doloribus doloremque aspernatur quod dolores amet sint!</p>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
